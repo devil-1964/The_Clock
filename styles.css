@@ -1,0 +1,47 @@
+#text
+{
+    text-align: center;
+    font-size: 4.9vw;
+    font-weight: 600;
+    font-family:'Courier New', monospace;
+}
+#Clock{
+    height: 25vw;
+    width: 25vw;
+    position: relative;
+    background: url("clockEmpty.png") no-repeat;
+    background-size:100% ;
+    margin:4vw auto;
+}
+#hour, #minute,#second,#center{
+position: absolute;
+background-color: black;
+border-radius: 10px;
+}
+#center{
+    height: 5%;
+    width: 5%;
+    top: 47.5%;
+    left: 47.5%;
+}
+#hour{
+    width: 2.2%;
+    height: 25%;
+    top: 25.1%;
+    left: 48.7%;
+    transform-origin: bottom;
+}
+#minute{
+    width: 1.7%;
+    height: 31%;
+    transform-origin: bottom;
+    top: 20.1%;
+    left: 48.95%;
+}
+#second{
+    transform-origin: bottom;
+    width: 1%;
+    height: 39%;
+    top: 11.1%;
+    left: 49.3%;
+}
