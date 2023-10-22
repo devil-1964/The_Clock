@@ -1,2 +1,2 @@
 # The Clock
-![Clock](image/imageClock.jpg)
+![Clock](image/imageClock.png)
