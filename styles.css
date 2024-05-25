@@ -45,13 +45,4 @@ border-radius: 10px;
     top: 11.1%;
     left: 49.3%;
 }
-@media screen and (max-width: 768px){
-    #text{
-        font-size:25px;
-    }
-    #Clock{
-        height:200px;
-        width:200px;
-    }
 
-}
